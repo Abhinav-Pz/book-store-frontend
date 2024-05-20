@@ -1,0 +1,32 @@
+className='inline-block text-5xl'
+
+<div className='flex justify-center gap-4'>
+      <div className=''>
+       <h3 className='text-2xl font-mono'> 1. See what books your friends are reading.</h3>
+       <br />
+        <img style={{width:'1000px'}} src="https://bookish.netgalley.com/wp-content/uploads/2020/10/WAB-Oct_Nov_Dec-Designs-1-3.png" alt="" />
+      </div>
+      <br />
+      <br />
+
+      <div >
+       <h3 className='text-2xl font-mono'> 2. Track the books you're reading, have read, and want to read.</h3>
+       <br />
+        <img style={{width:'700px'}} src="https://wilbankspartners.com/wp-content/uploads/2024/03/womenshistorymonthbooklist-hero-uai-835x470.jpeg" alt="" />
+      </div>
+
+      <div className='mx-3'>
+       <h3 className='text-2xl font-mono'> 3. Check out your personalized book recommendations.</h3>
+       <br />
+        <img style={{width:'700px'}} src="https://t3.ftcdn.net/jpg/01/36/83/98/360_F_136839850_BTsOH0IbjrXlBK8QVy3YjBerlzZt4tb6.jpg" alt="" />
+      </div>
+      <br />
+      <br />
+
+      <div >
+       <h3 className='text-2xl font-mono'> 4. Find out if a book is a good fit for you from our community’s reviews.</h3>
+       <br />
+        <img style={{width:'700px'}} src="https://media.istockphoto.com/id/1303530194/photo/close-up-on-customer-man-hand-pressing-on-smartphone-screen-with-five-star-rating-feedback.jpg?b=1&s=612x612&w=0&k=20&c=HsemfvRHcn9fLoDkoH65zQ8zKdw1JfO00Sjer1MgRu4=" alt="" />
+      </div>
+
+      </div>
