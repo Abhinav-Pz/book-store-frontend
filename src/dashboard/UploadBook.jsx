@@ -50,7 +50,7 @@ const UploadBook = () => {
 
         // send data to db
 
-        fetch("http://localhost:5000/upload-book",  {
+        fetch("https://book-store-backend-ten.vercel.app/upload-book",  {
           method: "POST",
           headers: {
             "Content-type" : "application/json",
