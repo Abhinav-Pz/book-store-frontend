@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Button, Checkbox, Label, Select, TextInput, Textarea } from "flowbite-react";
+import { Toaster, toast } from 'sonner'
 
 
 
@@ -59,7 +60,7 @@ const UploadBook = () => {
 
         }).then(res => res.json()).then(data => {
          //console.log(data);
-         alert("Book uploaded successfully ! ")
+         toast.success("Book uploaded successfully ! ")
          form.reset();
         })
   }
