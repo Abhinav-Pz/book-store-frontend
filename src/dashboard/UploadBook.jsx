@@ -50,7 +50,7 @@ const UploadBook = () => {
 
         // send data to db
 
-        fetch("hhttps://book-store-backend-vtfe.onrender.com/upload-book",  {
+        fetch("https://book-store-backend-vtfe.onrender.com/upload-book",  {
           method: "POST",
           headers: {
             "Content-type" : "application/json",
