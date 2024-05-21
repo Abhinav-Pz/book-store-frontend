@@ -17,7 +17,7 @@ const Shop = () => {
   
 
   useEffect( () =>{
-    fetch("https://book-store-backend-ten.vercel.app/all-books").then(res => res.json()).then(data => setBooks(data));
+    fetch("https://book-store-backend-vtfe.onrender.com/all-books").then(res => res.json()).then(data => setBooks(data));
   }, [])
 
   function handleAddtoCart(book) {

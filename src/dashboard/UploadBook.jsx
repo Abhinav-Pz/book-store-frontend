@@ -50,7 +50,7 @@ const UploadBook = () => {
 
         // send data to db
 
-        fetch("https://book-store-backend-ten.vercel.app/upload-book",  {
+        fetch("hhttps://book-store-backend-vtfe.onrender.com/upload-book",  {
           method: "POST",
           headers: {
             "Content-type" : "application/json",

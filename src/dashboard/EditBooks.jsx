@@ -52,7 +52,7 @@ const EditBooks = () => {
         // console.log(bookObj);
        // update book data
        
-       fetch(`https://book-store-backend-ten.vercel.app/book/${id}`, {
+       fetch(`https://book-store-backend-vtfe.onrender.com/book/${id}`, {
         method : "PATCH",
         headers: {
           "Content-Type" : "application/json"
