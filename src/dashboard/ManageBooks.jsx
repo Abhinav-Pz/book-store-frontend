@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Table } from "flowbite-react";
 import { Link } from 'react-router-dom';
+import { toast } from 'sonner';
 
 const ManageBooks = () => {
   const [allBooks, setAllBooks] = useState([]);
@@ -14,7 +15,7 @@ const ManageBooks = () => {
     fetch(`https://book-store-backend-vtfe.onrender.com/book/${id}`,{
       method: "DELETE",
     }).then(res => res.json()).then(data => {
-      alert("Book is deleted successfully !") 
+      toast("Book is deleted successfully !") 
       // setAllBooks(data);
     });
   }
