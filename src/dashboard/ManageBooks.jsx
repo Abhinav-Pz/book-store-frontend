@@ -15,7 +15,7 @@ const ManageBooks = () => {
     fetch(`https://book-store-backend-vtfe.onrender.com/book/${id}`,{
       method: "DELETE",
     }).then(res => res.json()).then(data => {
-      toast("Book is deleted successfully !") 
+      toast.success("Book is deleted successfully !") 
       // setAllBooks(data);
     });
   }
