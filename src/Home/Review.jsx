@@ -69,8 +69,7 @@ const Review = () => {
                 
               <Card.Title>Chris</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+              "Library offers a seamless browsing experience and efficient management tools, making it a must-have solution for book enthusiast."
               </Card.Text>
               <br />
               <div>
@@ -93,8 +92,7 @@ const Review = () => {
                 
               <Card.Title>Milli</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+              "Library stands out with its intuitive interface and comprehensive features, delivering a seamless experience for both users and administrators".
               </Card.Text>
               <br />
               <div>
