@@ -52,6 +52,9 @@ const Cart = () => {
       </div>
       <div className='flex justify-center p-12'>
       <Link to='/payment'> <button className='btn btn-primary p-2 hover:bg-black'>Proceed to checkout</button></Link> 
+      &nbsp;
+      &nbsp;
+      <Link to='/shop'> <button className='btn btn-danger p-2 hover:bg-black'>Back</button></Link> 
       </div>
     </div>
     </>
